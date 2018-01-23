@@ -1,0 +1,50 @@
+h1.high-level {
+  color: FF6B6B;
+}
+
+h1.display-3 {
+  color: 663C70;
+}
+
+p.body-text {
+  color: 594F4F;
+}
+
+p.lead {
+  color: fcfcfc;
+}
+
+p.font-weight-bold {
+    color: fcfcfc;
+}
+
+div.jumbotron {
+    background-image: url("takeoff_cropped.jpg");
+    background-color: #17234E;
+    margin-bottom: 30;`enter code here`
+    min-height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+img.ops2 {
+  width: 200px;
+  padding: 1px;
+  padding-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img.ops3 {
+  width: 200px;
+  padding: 1px;
+  padding-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
