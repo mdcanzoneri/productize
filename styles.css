@@ -1,3 +1,7 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 h1.high-level {
   color: FF6B6B;
 }
@@ -21,16 +25,17 @@ p.font-weight-bold {
 div.jumbotron {
     background-image: url("takeoff_cropped.jpg");
     background-color: #17234E;
-    margin-bottom: 30;`enter code here`
+    margin-bottom: 30;
     min-height: 50%;
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
     background-size: cover;
+    padding-bottom: 10px;
 }
 
-img.ops2 {
-  width: 200px;
+img.ops {
+  width: 80%;
   padding: 1px;
   padding-top: 40px;
   display: block;
@@ -39,12 +44,15 @@ img.ops2 {
   width: 50%;
 }
 
-img.ops3 {
-  width: 200px;
-  padding: 1px;
-  padding-top: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+div.form-group {
+  padding-left: 0px;
+  padding-top: 50px;
+}
+
+button.type {
+  margin-bottom: 10px;
+}
+
+i.fas {
+  padding 100px;
 }
