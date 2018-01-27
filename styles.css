@@ -1,6 +1,9 @@
+/* Global Styles */
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+/* Index Styles */
 
 h1.high-level {
   color: FF6B6B;
@@ -55,4 +58,21 @@ button.type {
 
 i.fas {
   padding 100px;
+}
+
+/* Features Styles */
+
+/* Pricing Styles */
+h1.plan-name {
+  padding-top: 30px;
+  color: FF6B6B;
+}
+
+h5.monthly-price {
+  color: 663C70;
+}
+
+ul.features {
+  display: inline-block;
+  text-align:left;
 }
