@@ -25,7 +25,7 @@ p.font-weight-bold {
     color: fcfcfc;
 }
 
-div.jumbotron {
+div.jb-index {
     background-image: url("takeoff_cropped.jpg");
     background-color: #17234E;
     margin-bottom: 30;
@@ -34,7 +34,9 @@ div.jumbotron {
     background-position: center;
     -webkit-background-size: cover;
     background-size: cover;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-top: 15px;
 }
 
 img.ops {
@@ -63,6 +65,18 @@ i.fas {
 /* Features Styles */
 
 /* Pricing Styles */
+div.jb-pricing {
+    background-image: url("zen.jpeg");
+    background-color: #17234E;
+    margin-bottom: 0;
+    min-height: 45%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+
 h1.plan-name {
   padding-top: 30px;
   color: FF6B6B;
@@ -70,9 +84,33 @@ h1.plan-name {
 
 h5.monthly-price {
   color: 663C70;
+  padding-bottom: 15px;
 }
 
 ul.features {
   display: inline-block;
   text-align:left;
+}
+
+h1.display-4 {
+    color: 663C70;
+}
+
+p.lead {
+  color: 594F4F;
+}
+
+li {
+   margin:0 0 10px 0;
+}
+
+div.plan {
+  padding-right:20px;
+  border-right: 1px solid #ccc;
+}
+
+button.trial {
+  border-color: 663C70;
+  border-width: 2 PX;
+  color: 594F4F;
 }
