@@ -1,6 +1,7 @@
 /* Global Styles */
 body {
   font-family: 'Open Sans', sans-serif;
+  padding-top: 66px;
 }
 
 /* Index Styles */
@@ -17,11 +18,11 @@ p.body-text {
   color: 594F4F;
 }
 
-p.lead {
+p.lead-index {
   color: fcfcfc;
 }
 
-p.font-weight-bold {
+p.font-weight {
     color: fcfcfc;
 }
 
@@ -62,6 +63,11 @@ i.fas {
   padding 100px;
 }
 
+div.ops {
+  padding-right:20px;
+  border-right: 1px solid #ccc;
+}
+
 /* Features Styles */
 
 /* Pricing Styles */
@@ -74,7 +80,8 @@ div.jb-pricing {
     background-position: center;
     -webkit-background-size: cover;
     background-size: cover;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 h1.plan-name {
@@ -100,13 +107,14 @@ p.lead {
   color: 594F4F;
 }
 
-li {
+li.features {
    margin:0 0 10px 0;
 }
 
 div.plan {
   padding-right:20px;
   border-right: 1px solid #ccc;
+  margin-top: 30px;
 }
 
 button.trial {
