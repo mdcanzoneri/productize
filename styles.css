@@ -69,18 +69,47 @@ div.ops {
 }
 
 /* Features Styles */
-
-/* Pricing Styles */
-div.jb-pricing {
-    background-image: url("zen.jpeg");
+div.jb-features {
+    background-image: url("starter.jpg");
     background-color: #17234E;
-    margin-bottom: 0;
-    min-height: 45%;
+    margin-bottom: 50;
+    min-height: 50%;
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
     background-size: cover;
     padding-bottom: 15px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+h1.product {
+  color: #27d49e;
+}
+
+p.lead-product {
+  color: fcfcfc;
+}
+
+button.product {
+  border-color: #27d49e;
+  border-width: 2 PX;
+  color: 594F4F;
+  margin-top: 90px;
+}
+
+/* Pricing Styles */
+div.jb-pricing {
+    background-image: url("zen.jpeg");
+    background-color: #17234E;
+    margin-bottom: 50;
+    min-height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-bottom: 15px;
+    padding-left: 30px;
     padding-top: 15px;
 }
 
@@ -99,11 +128,11 @@ ul.features {
   text-align:left;
 }
 
-h1.display-4 {
+h1.pricing {
     color: 663C70;
 }
 
-p.lead {
+p.lead-pricing {
   color: 594F4F;
 }
 
