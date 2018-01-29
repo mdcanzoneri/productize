@@ -98,6 +98,36 @@ button.product {
   margin-top: 90px;
 }
 
+div.product {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  top: 0%;
+  max-width: 80%;
+}
+
+img.input {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 35px;
+  margin-left: 100px;
+  max-width: 90%;
+  border-width: 2 PX;
+  border: solid;
+  border-color: 663C70;
+}
+
+img.interact {
+  margin-top: 50px;
+  margin-left: 100px;
+  max-width: 100%;
+  border-width: 2 PX;
+  border: solid;
+  border-color: 663C70;
+}
+
 /* Pricing Styles */
 div.jb-pricing {
     background-image: url("zen.jpeg");
@@ -114,7 +144,6 @@ div.jb-pricing {
 }
 
 h1.plan-name {
-  padding-top: 30px;
   color: FF6B6B;
 }
 
@@ -143,11 +172,12 @@ li.features {
 div.plan {
   padding-right:20px;
   border-right: 1px solid #ccc;
-  margin-top: 30px;
+  margin-top: 5px;
 }
 
 button.trial {
   border-color: 663C70;
   border-width: 2 PX;
   color: 594F4F;
+  margin-top: 90px;
 }
